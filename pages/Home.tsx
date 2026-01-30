@@ -15,7 +15,8 @@ import {
   Stethoscope,
   BellRing,
   Coins,
-  Crown
+  Crown,
+  Globe
 } from 'lucide-react';
 
 // 品牌相关图片
@@ -67,7 +68,7 @@ const Home: React.FC = () => {
         <div className="flex items-center space-x-2">
            <div className="flex flex-col">
               <h1 className="text-xl font-bold text-[#1a2b4b] leading-tight">恒源环球</h1>
-              <p className="text-[8px] text-[#c5a059] font-bold tracking-tight uppercase">Ever Fountain Global Wealth Management Limited</p>
+              <p className="text-[10px] text-[#c5a059] font-black tracking-widest uppercase">Ever Fountain Global</p>
            </div>
         </div>
         <div className="flex space-x-2">
@@ -86,7 +87,7 @@ const Home: React.FC = () => {
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-3 flex items-center justify-between shadow-sm border border-white/50">
           <TrustItem icon={<ShieldCheck className="w-3.5 h-3.5" />} label="持牌经纪机构" />
           <div className="h-3 w-[1px] bg-gray-200"></div>
-          <TrustItem icon={<Handshake className="w-3.5 h-3.5" />} label="合规资金出境" />
+          <TrustItem icon={<Globe className="w-3.5 h-3.5" />} label="精选全球保障" />
           <div className="h-3 w-[1px] bg-gray-200"></div>
           <TrustItem icon={<UserRoundCheck className="w-3.5 h-3.5" />} label="1对1专家服务" />
         </div>
@@ -105,7 +106,7 @@ const Home: React.FC = () => {
           <div className="relative p-6 flex flex-col justify-center h-full space-y-4">
             <div className="space-y-0.5">
               <h2 className="text-lg font-bold tracking-wide">恒源环球 | EVER FOUNTAIN GLOBAL</h2>
-              <p className="text-[10px] uppercase tracking-[0.2em] text-[#c5a059] font-bold opacity-90">Professional Wealth Management</p>
+              <p className="text-[10px] uppercase tracking-[0.2em] text-[#c5a059] font-bold opacity-90">PROFESSIONAL INSURANCE BROKER</p>
             </div>
             <div className="space-y-1.5">
               <p className="text-xl font-semibold leading-tight">定制您的个人专属保障方案</p>

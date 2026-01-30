@@ -23,6 +23,10 @@ const PolicyDetail: React.FC = () => {
     navigate('/');
   };
 
+  const handleBuyNow = () => {
+    window.location.href = "https://dc-hk.molifund.com/#/fund/fund/fundDetail?fund_code=HK0000499811";
+  };
+
   return (
     <div className="flex flex-col min-h-full bg-[#f8fafc] pb-10">
       {/* 1. Header - 优化返回按钮逻辑 */}
@@ -214,7 +218,10 @@ const PolicyDetail: React.FC = () => {
              </div>
 
              <div className="flex space-x-3 pt-2">
-                <button className="flex-1 bg-orange-500 text-white py-3.5 rounded-2xl text-[13px] font-bold shadow-lg shadow-orange-100 active:scale-95 transition-transform">
+                <button 
+                  onClick={handleBuyNow}
+                  className="flex-1 bg-orange-500 text-white py-3.5 rounded-2xl text-[13px] font-bold shadow-lg shadow-orange-100 active:scale-95 transition-transform"
+                >
                   一键买入
                 </button>
                 <button 
